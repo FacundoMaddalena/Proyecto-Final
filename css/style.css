@@ -50,11 +50,11 @@ body{
 
 .a_main{
     text-decoration: none;
-    color: #ff6c00;
+    color: #fd9a19;
     font-family: 'Audiowide', cursive;
 }
 .a_main:hover{
-    color: #ff9100;
+    color: #ffbc64;
 }
 
 .text-main{
@@ -98,27 +98,32 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3%;
+    color: #ff6c00;
 }
 
 .home--section{
-    padding: 8% 0 7% 0;
+    margin: 8% 0 7% 0;
     font-family: 'Audiowide', cursive;
-    font-size: 1.1em;
-    color: #ff6c00;
+    font-size: 1em;
+    border-bottom: 0.2em solid #d4ff00;
 }
 
 .h2_ind{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fd9a19;
 }
 
 .sec-div-home{
     font-family: sans-serif;
     color:  #ff6c00;
-    padding-bottom: 10%;
+    margin: 0 8% 10% 8%;
 }
 
+.sec-div-home p{
+    color: #d4ff00;
+}
 
 
 
@@ -149,7 +154,7 @@ body{
 }
 
 .about--section{
-    padding: 8% 0 7% 0;
+    padding: 0 0 7% 0;
     font-family: 'Audiowide', cursive;
     font-size: 1.1em;
     color: #ff6c00;
@@ -159,19 +164,20 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 5px solid #ff6c00;
+    border-bottom: 0.2em solid #d4ff00;
 }
 
 .what--we--do{
     font-family: sans-serif;
     color:  #d4ff00;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .h2_aboutt{
     font-family: 'Audiowide', cursive;
     font-size: 1.3em;
     font-style: normal;
+    color: #ff6c00;
 }
 
 
@@ -206,7 +212,7 @@ body{
     padding: 3%;
 }
 
-.couse--section{
+.course--section{
     padding: 8% 0 7% 0;
     font-family: 'Audiowide', cursive;
     font-size: 1.1em;
@@ -217,7 +223,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 5px solid #ff6c00;
+    border-bottom: 0.2em solid #d4ff00;
 }
 
 .what--we--do{
@@ -226,11 +232,6 @@ body{
     padding-bottom: 10%;
 }
 
-.h2_coursee{
-    font-family: 'Audiowide', cursive;
-    font-size: 1.3em;
-    font-style: normal;
-}
 
 
 
@@ -240,21 +241,68 @@ body{
 
 
 
-.form_article{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/smoke__contactr.jpg);
+
+
+
+
+
+
+
+
+
+
+
+
+
+.course--environments{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/desert-backgroundr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    padding: 2em;
-    line-height: 2em;
-    font-family: 'Audiowide', cursive;
-    font-size: 1em;
-    color: #d4ff00;
+    padding: 3%;
 }
 
-option{
-    background-color: transparent;
+
+
+
+
+
+.course--snow{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/sky-igloo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
 }
+
+
+
+
+
+
+.course--desert{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/camping-desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+
+
+
+
+
+
+.course--forest{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/forestr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -274,48 +322,78 @@ option{
     flex-direction: column;
     align-items: center;
     background-color: black;
-    padding-top: 10px;
+    padding-bottom: 10%;
 }
 
 .h2_gallery{
-    margin: 1em;
+    margin: 2em;
     padding: 0% 33% 2% 33%;
     font-family: 'Audiowide', cursive;
     color: #ff842b;
-    border-bottom: 5px solid #ff6c00;
+    border-bottom: 0.2em solid #d4ff00;
 }
 
-.gall_1{
+.gall-1{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
 
 .gall_1_img{
     margin-bottom: 15px;
-    border: 1px solid #ff6c00;
+    border: 0.2em solid #d4ff00;
 }
+
+.gall_2_img{
+    margin-bottom: 15px;
+    border: 0.2em solid #d4ff00;
+}
+
+.gall_3_img{
+    margin-bottom: 15px;
+    border: 0.2em solid #d4ff00;
+}
+
+.gall_4_img{
+    margin-bottom: 15px;
+    border: 0.2em solid #d4ff00;
+}
+
+.gall_5_img{
+    margin-bottom: 15px;
+    border: 0.2em solid #d4ff00;
+}
+
+.gall_6_img{
+    margin-bottom: 15px;
+    border: 0.2em solid #d4ff00;
+}
+
+.gall_7_img{
+    margin-bottom: 15px;
+    border: 0.2em solid #d4ff00;
+}
+
+.gall_8_img{
+    margin-bottom: 15px;
+    border: 0.2em solid #d4ff00;
+}
+
+.gall_9_img{
+    margin-bottom: 15px;
+    border: 0.2em solid #d4ff00;
+}
+
+
 
 .figure_gall{
     width: 315px;
 }
 
-.gall_2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-size: cover;
-}
-
-.gall_2_img{
-    margin-bottom: 15px;
-    border: 1px solid #ff6c00;
-}
-
-.figure_2_gall{
-    width: 315px;
-}
 
 
 
@@ -339,39 +417,16 @@ option{
 
 
 
-.section__course__contact{
-    margin: 1012px, 600px;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/contacto/smoke__contact.jpg);
+.form_article{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/smoke__contactr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 34px;
-}
-
-.art__form__contact{
-    line-height: 35px;
-    font-family: sans-serif;
-    color:#ff6c00;
-}
-
-.contact--contact{
+    text-align: center;
+    padding: 2em;
+    line-height: 2em;
     font-family: 'Audiowide', cursive;
-    padding-left: 11%;
-    padding-top: 150px;
-    padding-bottom: 232px;
-    font-size: 50em;
-    color: #ffffff;
-}
-
-.section__contact{
-    padding: 40px;
-}
-
-.footer--contact--icons{
-    display:flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 30px;
+    font-size: 1em;
+    color: #d4ff00;
 }
 
 
@@ -403,11 +458,11 @@ option{
 }
 
 .h3__footer{
-    padding-top: 15px;
+    padding-top: 5%;
     font-family: 'Audiowide', cursive;
     font-size: 1.1em;
     color: #fd9a19;
-    border-bottom: 0.2em solid #ff6c00;
+    border-bottom: 0.2em solid #d4ff00;
     text-align: center;
 }
 
@@ -449,17 +504,24 @@ option{
 
 .div__footer{
     display: flex;
-    padding: 5px 10px 0px 10px;
+    padding: 3% 5% 0px 5%;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     color: #ff6c00;
     font-family: sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .h3__footer{
-    margin-bottom: 25px;
+    margin-bottom: 13%;
+}
+
+.h3__footere{
+    color: #000000;
+    font-family:  'Audiowide', cursive;
+    border-bottom: 0.2em solid #000000;
+    margin: 15%;
 }
 
 .list__footer{
@@ -469,10 +531,11 @@ option{
 .links__footer{
     text-decoration: none;
     color: #d4ff00;
+    
 }
 
 .icons{
-    width: 1.5em;
+    width: 1.8em;
 }
 
 
@@ -551,8 +614,8 @@ option{
 
 @media(min-width:768px){
 
-    .h1m{    
-        grid-area: h1m;
+    .div-main{    
+        grid-area: div-main;
     }
 
     .mainMenu{
@@ -596,20 +659,25 @@ option{
 }
 
 .mainMenu{
+    margin-left: 6%;
+}
+
+.list{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-items: start;
+    justify-items: flex-start;
     font-style: normal;
-    padding-top: 29px;
+    padding-top: 10%;
 }
 
 .list_li{
     display: flex;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     flex-direction: row;
     justify-items: flex-start;
+    margin-left: 3%;
 }
 
 .a_main{
@@ -657,22 +725,20 @@ option{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/nosotros/knappingg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 35px;
-    padding-right: 400px;
-    padding-bottom: 200px;
+    padding: 6%;
 }
 
 
 .home--section{
     font-family: 'Audiowide', cursive;
-    padding-left: 450px;
-    padding-top: 50px;
-    font-size: 1em;
+    padding: 3% 0 1% 0;
+    margin: 4% 0 3% 0;
+    font-size: 1.5em;
     color: #ff6c00;
 }
 
 .section-home{
-    padding-top: 60px;
+    padding-top:5%;
 }
 
 .sec-div-home{
@@ -701,36 +767,37 @@ option{
 
 
 
-
-
-
-
 .about__section__box{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/nosotros/knappingg.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 35px;
-    padding-right: 400px;
-    padding-bottom: 200px;
+    padding: 6%;
+    font-size: 1.1em;
 }
 
 .about--section{
+    padding: 0 0 9% 0;
     font-family: 'Audiowide', cursive;
-    padding-left: 450px;
-    padding-top: 50px;
-    font-size: 25em;
     color: #ff6c00;
 }
 
-.section__about{
-padding-top: 60px;
+.h2_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.2em solid #d4ff00;
 }
 
 .what--we--do{
     font-family: sans-serif;
-    color:  #ff6c00;
+    color:  #d4ff00;
+    padding-bottom: 10%;
 }
 
+.h2_aboutt{
+    font-family: 'Audiowide', cursive;
+    font-size: 1.3em;
+    font-style: normal;
+}
 
 
 
@@ -757,12 +824,19 @@ padding-top: 60px;
 
 
 .course--course{
-    font-family: 'Audiowide', cursive;
-    padding-left: 21%;
-    padding-top: 150px;
-    padding-bottom: 232px;
-    font-size: 1em;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/cursos/fire-winter.jpg);
+    padding: 2%;
     color: #ffffff;
+}
+
+.couse--section{
+    font-family: 'Audiowide', cursive;
+    font-size: 1.5em;
+    color: #ff6c00;
+}
+
+.what--we--do{
+    font-size: 1.2em;
 }
 
 
@@ -779,74 +853,236 @@ padding-top: 60px;
 
 
 
-.gallery--gallery{
-    font-family: 'Audiowide', cursive;
-    padding-top: 150px;
-    padding-left: 15%;
-    padding-bottom: 232px;
-    font-size: 50em;
-    color: #ffffff;
+
+
+
+
+
+
+
+
+
+.course--environments{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/cursos/desert-background.jpg);
+    padding: 2%;
 }
 
-.art__gallery{
-    background-color: black;
-    margin-top: 10px;
+
+
+
+
+
+.course--snow{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/cursos/sky-igloo.jpg);
+    padding: 2%;
+}
+
+
+
+
+
+
+.course--desert{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/cursos/camping-desert.jpg);
+    padding: 2%;
+}
+
+
+
+
+
+
+.course--forest{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/cursos/forest.jpg);
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gall-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+    grid-template-areas:
+    "g1 g2 g3"
+    "g4 g5 g6"
+    "g7 g8 g9" ;
+}
+
+
+.gall_1_img{
+    grid-area: g1;
+}
+
+.gall_2_img{
+    grid-area: g2;
+}
+
+.gall_3_img{
+    grid-area: g3;
+}
+
+.gall_4_img{
+    grid-area: g4;
+}
+
+.gall_5_img{
+    grid-area: g5;
+}
+
+.gall_6_img{
+    grid-area: g6;
+}
+
+.gall_7_img{
+    grid-area: g7;
+}
+
+.gall_8_img{
+    grid-area: g8;
+}
+
+.gall_9_img{
+    grid-area: g9;
+}
+
+
+
+.figure_gall{
+    width: 236.25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form_article{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/contacto/smoke__contact.jpg);
+    text-align: center;
+    padding: 2%;
+    line-height: 2em;
+    font-family: 'Audiowide', cursive;
+    color: #d4ff00;
+}
+
+.form_article h2{
+    border-bottom: 0.2em solid #d4ff00;
+    margin: 5%;
+}
+
+.form_article form{
+    display: inline-block;
+    margin: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_footer{
+    background-color: #000000;
+}
+
+.h3__footer{
+    padding-top: 5%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__end{
+    height: 150vh;
+    border-top: 1em solid #d4ff00;
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__footer{
+    font-size: 1.1em;
+}
+
+.h3__footer{
+    margin-bottom: 7%;
+}
+
+.h3__footere{
+    border-bottom: 0.2em solid #000000;
+    margin: 4%;
 }
 
 
-.gall__img{
-    padding: 16px;
-    margin: 3px;
-    border: 3px solid #ff6c00;
-}
 
-
-
-
-
-
-
-
-
-
-.section__course__contact{
-    margin: 1012px, 600px;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/contacto/smoke__contact.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 34px;
-}
-
-.art__form__contact{
-    line-height: 35px;
-    font-family: sans-serif;
-    color:#ff6c00;
-}
-
-.contact--contact{
-    font-family: 'Audiowide', cursive;
-    padding-left: 11%;
-    padding-top: 150px;
-    padding-bottom: 232px;
-    font-size: 50em;
-    color: #ffffff;
-}
-
-.section__contact{
-    padding: 40px;
-}
-
-.footer--contact--icons{
-    display:flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 30px;
-}
 
 
 }
