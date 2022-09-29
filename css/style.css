@@ -28,7 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 1%;
+    padding: 1%;
     color: #ff6c00;
     font-size: 1.9em;
     text-align: start;
@@ -37,7 +37,7 @@ body{
 
 .list{
     font-style: normal;
-    padding-top: 20px;
+    padding-top: 10%;
 }
 
 .list_li{
@@ -69,7 +69,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 13px;
+    margin-top: 5%;
 }
 
 .inscribirse{
@@ -494,7 +494,7 @@ body{
 .footer__end{
     background: linear-gradient(180deg, rgba(0,0,0,1) 20%, rgb(212, 255, 0) 80%);
     width: 100%;
-    height: 140vh;
+    height: 150vh;
     border-top: 1em solid #d4ff00;
     list-style: none;
     display: flex;
@@ -630,17 +630,12 @@ body{
 
 .main{
     display: grid;
-    width: 100%;
-    height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3,1fr);
     grid-template-areas:
     "div-main div-main"
     "text-main text-main"
     "text-main text-main";
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("../img/main.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
@@ -653,9 +648,7 @@ body{
 
 .h1m{
     padding: 2%;
-    color: #ff6c00;
     font-size: 2em;
-    text-align: start;
 }
 
 .mainMenu{
@@ -668,49 +661,25 @@ body{
     flex-wrap: nowrap;
     justify-items: flex-start;
     font-style: normal;
-    padding-top: 10%;
 }
 
 .list_li{
-    display: flex;
-    list-style: none;
     font-size: 1.1em;
     flex-direction: row;
     justify-items: flex-start;
     margin-left: 3%;
 }
 
-.a_main{
-    text-decoration: none;
-    color: #ff6c00;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-family: 'Audiowide', cursive;
-}
 .a_main:hover{
     color: #ff9100;
 }
 
 .text-main{
-    font-family: 'Audiowide', cursive;
     font-size: 2em;
-    color: #ffffff;
-}
-
-.div__inscribirse{
-    text-align: center;
 }
 
 .inscribirse{
-    text-decoration: none;
-    color:#ff6c00;
-    font-size: 1.2em;
     border: 8px solid #ff6c00;
-    font-family: 'Audiowide', cursive;
-}
-.inscribirse:hover{
-    color: #fd9a19;
-    border-color: #fd9a19;
 }
 
 
@@ -723,15 +692,12 @@ body{
 
 .home_section_box{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/nosotros/knappingg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 6%;
 }
 
 
 .home--section{
     font-family: 'Audiowide', cursive;
-    padding: 3% 0 1% 0;
     margin: 4% 0 3% 0;
     font-size: 1.5em;
     color: #ff6c00;
@@ -741,10 +707,6 @@ body{
     padding-top:5%;
 }
 
-.sec-div-home{
-    font-family: sans-serif;
-    color:  #ff6c00;
-}
 
 
 
@@ -769,34 +731,20 @@ body{
 
 .about__section__box{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/nosotros/knappingg.jpg);
-    background-size: cover;
     padding: 6%;
     font-size: 1.1em;
 }
 
 .about--section{
     padding: 0 0 9% 0;
-    font-family: 'Audiowide', cursive;
-    color: #ff6c00;
-}
-
-.h2_about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 0.2em solid #d4ff00;
 }
 
 .what--we--do{
-    font-family: sans-serif;
-    color:  #d4ff00;
     padding-bottom: 10%;
 }
 
 .h2_aboutt{
-    font-family: 'Audiowide', cursive;
-    font-size: 1.3em;
-    font-style: normal;
+    font-size: 1.4em;
 }
 
 
@@ -826,11 +774,9 @@ body{
 .course--course{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/cursos/fire-winter.jpg);
     padding: 2%;
-    color: #ffffff;
 }
 
-.couse--section{
-    font-family: 'Audiowide', cursive;
+.course--section{
     font-size: 1.5em;
     color: #ff6c00;
 }
@@ -1060,7 +1006,7 @@ body{
 
 
 .footer__end{
-    height: 150vh;
+    height: 160vh;
     border-top: 1em solid #d4ff00;
     list-style: none;
     display: flex;
@@ -1080,6 +1026,65 @@ body{
     border-bottom: 0.2em solid #000000;
     margin: 4%;
 }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1020px){
+
+
+
 
 
 
