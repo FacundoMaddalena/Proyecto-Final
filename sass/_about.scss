@@ -1,0 +1,29 @@
+.about__section__box{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/knappinggmedia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+    .about--section{
+        padding: 0 0 7% 0;
+        font-family: 'Audiowide', cursive;
+        font-size: 1.1em;
+        color: #ff6c00;
+    }
+    .h2_about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 0.2em solid #d4ff00;
+    }
+    .what--we--do{
+        font-family: sans-serif;
+        color:  #d4ff00;
+        padding-bottom: 5%;
+        .h2_aboutt{
+            font-family: 'Audiowide', cursive;
+            font-size: 1.3em;
+            font-style: normal;
+            color: #ff6c00;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.home_section_box{
+    background-image: url(../img/background-jungle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+    color: #ff6c00;
+    .home--section{
+        margin: 8% 0 7% 0;
+        font-family: 'Audiowide', cursive;
+        font-size: 1em;
+        border-bottom: 0.2em solid #d4ff00;
+        .h2_ind{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fd9a19;
+        }
+    }
+    article{
+        .sec-div-home{
+            padding: 2%;
+            font-family: sans-serif;
+            color:  #ff6c00;
+            margin: 0 8% 10% 8%;
+            .sec-div-home p{
+                color: #d4ff00;
+            }
+        }
+    }
+}

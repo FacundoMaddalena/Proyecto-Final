@@ -1,0 +1,28 @@
+.art__gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 10%;
+    .h2_gallery{
+        margin: 2em;
+        padding: 0% 33% 2% 33%;
+        font-family: 'Audiowide', cursive;
+        color: #ff842b;
+        border-bottom: 0.2em solid #d4ff00;
+    }
+    .gall-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .gall_1_img,.gall_2_img,.gall_3_img,.gall_4_img,.gall_5_img,.gall_6_img,.gall_7_img,.gall_8_img,.gall_9_img{
+            margin-bottom: 15px;
+            border: 0.2em solid #d4ff00;
+            .figure_gall{
+                width: 315px;
+            }
+        }
+    }
+}

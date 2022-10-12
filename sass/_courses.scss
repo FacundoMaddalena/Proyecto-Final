@@ -1,0 +1,92 @@
+.course--course{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/fire-winterr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+    .course--section{
+        padding: 8% 0 7% 0;
+        font-family: 'Audiowide', cursive;
+        font-size: 1.1em;
+        color: #ff6c00;
+    }
+    .course__section{
+        .what--we--do{
+            font-family: sans-serif;
+            color:  #d4ff00;
+            padding-bottom: 10%;
+            a{
+                text-decoration: none;
+                color:#ff6c00;
+                font-family: 'Audiowide', cursive;
+            }
+        }
+    }
+
+}
+
+.course--environments ,.course--snow ,.course--desert ,.course--forest{
+    .course__section{
+        .h2_course{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 0.2em solid #d4ff00;
+        }
+    }
+}
+
+
+.course--environments{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/desert-backgroundr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+
+.course--snow{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/sky-igloo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+
+.course--desert{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/camping-desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+
+.course--forest{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/forestr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+
+.course--profesional{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/metal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+    .course__section{
+        .h3_course{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 0.2em solid #d4ff00;
+        }
+    }
+    .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5%;
+        .m{
+            width: 230px;
+            height: auto;
+            border-radius:6%;
+            border: 6px solid #ff6c00;
+        }
+    }
+}
