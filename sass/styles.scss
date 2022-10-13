@@ -4,6 +4,9 @@
 @import "about";
 @import "courses";
 @import "gallery";
+@import "contact";
+@import "footer";
+@import "mq";
 
 *{
     padding: 0%;
@@ -13,202 +16,6 @@
 body{
     min-height: 100vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.form_article{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),  url(../img/responsive/smoke__contactr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 2em;
-    line-height: 2em;
-    font-family: 'Audiowide', cursive;
-    font-size: 1em;
-    color: #d4ff00;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.section_footer{
-    background-color: #000000;
-}
-
-.h3__footer{
-    padding-top: 5%;
-    font-family: 'Audiowide', cursive;
-    font-size: 1.2em;
-    color: #fd9a19;
-    border-bottom: 0.2em solid #d4ff00;
-    text-align: center;
-}
-
-.figure_footer{
-    width: 315px;
-    height: 155px;
-}
-
-.div_footer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer__end{
-    background:linear-gradient(rgba(4,9,30,0.7),rgba(8, 19, 58, 0.7)), url(../img/footer/background-damasco.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 150vh;
-    border-top: 1em solid #d4ff00;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.div__footer{
-    display: flex;
-    padding: 3% 3% 0px 3%;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    color: #ff6c00;
-    font-family: sans-serif;
-}
-
-.h3__footer{
-    margin-bottom: 13%;
-}
-
-.h3__footere{
-    display: block;
-    color: #d4ff00;
-    font-family:  'Audiowide', cursive;
-    border-bottom: 0.2em solid #d4ff00;
-    margin: 15%;
-}
-
-.list__footer{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.links__footer{
-    text-decoration: none;
-    color: #d4ff00;
-}
-
-.icons{
-    width: 1.8em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -708,7 +515,7 @@ body{
 
 .list_li{
     margin-left: 4%;
-    font-size: 1.5em;
+    font-size: 1.45em;
 }
 
 .text-main{
@@ -776,7 +583,7 @@ body{
 }
 
 .figure_gall{
-    width: 354.375px;
+    width:  316.375px;
 }
 
 
