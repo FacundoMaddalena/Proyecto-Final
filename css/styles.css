@@ -104,6 +104,11 @@ body {
   font-family: sans-serif;
   color: #ff6c00;
   margin: 0 8% 10% 8%;
+  text-align: center;
+}
+
+.sec-div-home p{
+  padding: 7%;
 }
 
 .sec-div-home p {
@@ -135,6 +140,9 @@ body {
   font-family: sans-serif;
   color: #d4ff00;
   padding-bottom: 5%;
+}
+.what--we--do p{
+  padding: 6%;
 }
 
 .h2_aboutt {
@@ -178,6 +186,7 @@ body {
 }
 
 .course--environments {
+  min-height: 100vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/responsive/desert-backgroundr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -348,7 +357,7 @@ article .img {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 150vh;
+  height: 100vh;
   border-top: 1em solid #d4ff00;
   list-style: none;
   display: flex;
@@ -378,6 +387,11 @@ article .img {
   margin: 15%;
 }
 
+.footer__end .div__footer div{
+  padding: 5%;
+  text-align: center;
+}
+
 .list__footer {
   list-style: none;
   display: flex;
@@ -391,6 +405,16 @@ article .img {
 
 .icons {
   width: 1.8em;
+}
+
+.end{
+  background-color: #111111;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #ff6c00;
+  font-size: 1.3em;
+  padding: 4%;
+  border-top: 10px solid #ff6c00;
 }
 
 @media (min-width: 768px) {
@@ -554,7 +578,7 @@ article .img {
     text-align: center;
   }
   .footer__end {
-    height: 160vh;
+    height: 100vh;
     border-top: 1em solid #d4ff00;
     list-style: none;
     display: flex;
@@ -571,6 +595,10 @@ article .img {
     border-bottom: 0.3em solid #d4ff00;
     margin: 4%;
   }
+  .footer__end .div__footer div{
+    padding: 5%;
+  }
+
 }
 @media (min-width: 1020px) {
   .h1m {

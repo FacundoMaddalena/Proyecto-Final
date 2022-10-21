@@ -6,7 +6,6 @@
 @import "gallery";
 @import "contact";
 @import "footer";
-@import "mq";
 
 *{
     padding: 0%;
@@ -418,7 +417,7 @@ body{
 
 
 .footer__end{
-    height: 160vh;
+    height: 100vh;
     border-top: 1em solid #d4ff00;
     list-style: none;
     display: flex;
